@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Seaside House</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="properties.css">
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+              <a href="index.html"><img src="./airbnb.png" alt="Airbnb Logo"></a>
+            </div>
+            <div class="nav-buttons">
+              <button class="login-button">Login</button>
+              <button class="signup-button">Sign Up</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="payment-container">
+        <img src="1.jpeg" alt="Seaside House" class="paymentimg">
+            <div>
+                <h2>Seaside House</h2>
+                <p>6 guests · 3 bedrooms · 3 beds · 2 baths</p>
+                <p>Ocean view · Terrace · BBQ</p>
+            </div>
+
+        <div class="payment-details">
+            <h2>Booking Details</h2>
+            <p>Number of nights: 2</p>
+            <p>Cleaning fee: $10</p>
+            <p>Airbnb service fee: $12</p>
+            <p class="listing-price">Total: $224</p>
+        </div>
+
+        <div class="credit-card-form">
+            <h2>Credit Card Payment</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name on card:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="card-number">Card number:</label>
+                    <input type="text" id="card-number" required>
+                </div>
+                <div class="form-group">
+                    <label for="expiry">Expiry date:</label>
+                    <input type="text" id="expiry" placeholder="MM/YY" required>
+                </div>
+                <div class="form-group">
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" required>
+                </div>
+            </form>
+        </div>
+
+        <div class="host-message">
+            <h2>Message the Host</h2>
+            <p>Let the host know why you're travelling and when you'll check in.</p>
+            <textarea rows="4" cols="50"></textarea>
+        </div>
+
+        <a href="confirmation.html" class="reserve-button book-button">Request to book</a>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="company-name">© 2023 Your Company Name</p>
+            <div class="footer-buttons">
+                <a href="index.html" class="footer-button">Home</a>
+                <a href="#" class="footer-button">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

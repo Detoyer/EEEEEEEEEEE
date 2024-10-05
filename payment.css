@@ -1,0 +1,52 @@
+.payment-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.property-preview {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.property-preview img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+.payment-details, .credit-card-form, .host-message {
+    margin-bottom: 30px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.book-button {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.book-button:hover {
+    background-color: #ff4146;
+}
+.paymentimg {
+    width: 65%;
+    height: 45%;
+}
